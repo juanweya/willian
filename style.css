@@ -115,3 +115,31 @@ form{
     background-color: #fffafa;
     transition: 0.5s;
 }
+
+
+
+.tabla-gestion {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilos para las celdas de la tabla */
+.tabla-gestion th, .tabla-gestion td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Color de fondo para las cabeceras */
+.tabla-gestion th {
+    background-color: #333;
+    color: white;
+}
+
+/* Color de fondo alternado para las filas */
+.tabla-gestion tr {
+    background-color: #f2f2f2;
+}
+
+
